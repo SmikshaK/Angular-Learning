@@ -39,3 +39,12 @@ When Angular renders this component, the resulting DOM looks like this:
 
 
 Angular's component model offers strong encapsulation and an intuitive application structure. Components also make your application painless to unit test and can improve the overall readability of your code.
+
+Few important commands:
+ng build	             - Compiles an Angular app into an output directory.
+ng serve	             - Builds and serves your application, rebuilding on file changes.
+ng generate	           - Generates or modifies files based on a schematic.
+ng test	               - Runs unit tests on a given project.
+ng e2e	               - Builds and serves an Angular application, then runs end-to-end tests.
+
+We shall learn the default component structure and the create our own component as well. 
