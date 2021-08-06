@@ -48,3 +48,13 @@ ng test	               - Runs unit tests on a given project.
 ng e2e	               - Builds and serves an Angular application, then runs end-to-end tests.
 
 We shall learn the default component structure and the create our own component as well. 
+
+Steps to follow to get started:
+1. Installing IDE(VS Code), angular, node js.
+2. Install Angular cli by typing in cmd- npm install -g @angular/cli
+3. Creating a new ng project- ng new AngularLearning
+4. Go into directory- cd AngularLearning
+5. And to get started- ng serve (Find the app on http://localhost:4200/ on your local browser)
+
+See the default code in first commit. 
+
