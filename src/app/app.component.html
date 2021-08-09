@@ -1,11 +1,28 @@
-<h1>My First Webpage- In single component.</h1>
-<p>
-  Hi, my name is Smiksha and we are learning angular here. I am interested in:
-</p>
-<ul>
-  <li>Web development</li>
-  <li>Coding</li>
-  <li>Dancing</li>
-</ul>
-<app-second></app-second>
-<app-third></app-third>
+
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>My First Webpage- In single component.</h1>
+      <p>
+        Hi, my name is Smiksha and we are learning angular here. I am interested in:
+      </p>
+      <ul>
+        <li>Web development</li>
+        <li>Coding</li>
+        <li>Dancing</li>
+      </ul>
+      <app-second></app-second>
+      <app-third></app-third>
+      <hr>
+      <h3>Enter username</h3>
+      <input type="text" class="form-control" [(ngModel)]= "username">
+      <p>{{ username }}</p>
+      <button 
+      class="btn btn-primary"
+      [disabled]= "username === ''"
+      (click)= "username = ''">
+      Reset User</button>
+    </div>
+  </div>
+</div>
