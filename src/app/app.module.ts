@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ThirdComponent } from './third/third.component';
 import { SecondComponent } from './second/second.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
